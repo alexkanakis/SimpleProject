@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using SimpleProject;
 
+bool errorVar = false;
 Console.WriteLine("Choose operation: (+, -, *, /)");
 
 string chosenOperation = Console.ReadLine();
@@ -11,8 +12,12 @@ double x = Double.Parse(Console.ReadLine());
 Console.WriteLine("Type in the second number: ");
 double y = Double.Parse(Console.ReadLine());
 
+if(y==0 & chosenOperation == "/"){
+    errorVar = true;
+}
+
 double result = 0;
-bool errorVar = false;
+
 
 switch (chosenOperation)
 {
