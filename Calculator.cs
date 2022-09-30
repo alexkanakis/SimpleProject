@@ -15,17 +15,17 @@ namespace SimpleProject
 
         public static double Subtract(double x, double y)
         {
-            return (y - x);
+            return (x - y);
         }
 
         public static double Multiply(double x, double y)
         {
-            return (y * x);
+            return (x * y);
         }
 
         public static double Divide(double x, double y)
         {
-            return (y / x);
+            return (x / y);
         }
     }
 }
