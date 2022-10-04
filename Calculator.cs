@@ -21,7 +21,7 @@ namespace SimpleProject
             string anotherCalc;
 
             //Getting chosen operation
-            Console.WriteLine("Choose operation: (+, -, *, / or 'exit' to close)");
+            Console.WriteLine("Choose operation: (+, -, *, /)");
             chosenOperation = GetOperator();
 
             //Getting Numbers
